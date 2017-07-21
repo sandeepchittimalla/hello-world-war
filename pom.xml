@@ -4,7 +4,7 @@
 	<groupId>com.efsavage</groupId>
 	<artifactId>hello-world-war</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.6</version>
+	<version>0.0.7</version>
 	<name>Hello World Web Application Repository</name>
 	<description>Simplest possible Java Webapp</description>
 
@@ -24,6 +24,7 @@
 				<version>2.1.1</version>
 				<configuration>
 					<outputDirectory>dist</outputDirectory>
+					<warName>hello-world</warName>
 				</configuration>
 			</plugin>
 		</plugins>
