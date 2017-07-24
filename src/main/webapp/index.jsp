@@ -9,5 +9,10 @@
 		<%= new java.util.Date() %></p>
 	<p>
 		You are coming from 
-		<%= request.getRemoteAddr()  %></p>
+		<%= request.getRemoteAddr()  %>
+    </p>
+    <p>
+        Server responding is
+        <%=request.getLocalAddr()%>
+    </p>
 </body>
